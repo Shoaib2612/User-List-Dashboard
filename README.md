@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User List Dashboard
 
-## Getting Started
+A React.js dashboard that displays a list of users fetched from an API. This project is built using Redux Toolkit, Tailwind CSS, and ShadCN UI for state management and UI styling. The dashboard includes features like search functionality, a loading skeleton, and a responsive table.
 
-First, run the development server:
+# Tech Stack
 
-```bash
+React.js – For building the user interface
+
+Redux Toolkit – For state management
+
+Tailwind CSS – For styling
+
+ShadCN UI – For UI components
+
+
+# Features
+
+✅ Fetches and displays a list of users dynamically
+✅ Search bar for filtering users in real-time
+✅ Skeleton loader while fetching data
+✅ Fully responsive and centered UI
+✅ Clean and modern table design
+
+# Installation & Setup
+
+1. Clone the repository:
+
+git clone https://github.com/Shoaib2612/User-List-Dashboard.git
+
+
+2. Navigate to the project folder:
+
+cd user-list-dashboard
+
+
+3. Install dependencies:
+
+npm install
+
+
+4. Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Usage
 
-## Learn More
+The application will open in your browser at http://localhost:3000.
 
-To learn more about Next.js, take a look at the following resources:
+The user list will load automatically.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Use the search bar to filter users by name.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to fork this repo and submit pull requests for improvements!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+Let me know if you need any modifications before adding this to GitHub!
